@@ -3,7 +3,7 @@ import serpapi
 params = {
   "engine": "google_lens",
   "url": "https://cdn.veritas-a.com/news/photo/old/4/3_1165480082.jpg",
-  "api_key": '' #add your api
+  "api_key": 'your api' #add your api
 }
 
 search = serpapi.search(params)
